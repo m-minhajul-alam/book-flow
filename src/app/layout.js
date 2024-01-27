@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={lora.className}>
-        <div className="bg-gray-100 min-h-screen px-5 lg:px-0">{children}</div>
+        <div className="bg-gray-100 min-h-screenx">{children}</div>
       </body>
     </html>
   );
