@@ -5,7 +5,7 @@ import Search from "./Search/Search";
 
 const Navbar = () => {
   return (
-    <div className="bg-black text-white w-full hidden md:block">
+    <div className="bg-black text-white w-full h-28 hidden md:block">
       <div className="max-w-7xl mx-auto py-3">
         {/* upper side nav */}
         <div className="flex justify-between items-center py-2 px-5">
