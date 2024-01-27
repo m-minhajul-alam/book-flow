@@ -2,6 +2,7 @@ import Logo from "../Logo/Logo";
 import Navend from "./Navend/Navend";
 import Navlinks from "./Navlinks/Navlinks";
 import Search from "./Search/Search";
+import Menutab from "./../MenuTab/MenuTab";
 
 const Navbar = () => {
   return (
@@ -41,6 +42,11 @@ const Navbar = () => {
         <div className="flex-1 ml-3">
           <Search />
         </div>
+      </div>
+
+      {/* menu tab for sm screen */}
+      <div>
+        <Menutab />
       </div>
     </div>
   );
