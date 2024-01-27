@@ -2,7 +2,7 @@ import Logo from "../Logo/Logo";
 import Navend from "./Navend/Navend";
 import Navlinks from "./Navlinks/Navlinks";
 import Search from "./Search/Search";
-import Menutab from "./../MenuTab/MenuTab";
+import Menutab from "./MenuTab/MenuTab";
 
 const Navbar = () => {
   return (
@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       {/* menu tab for sm screen */}
-      <div>
+      <div className="md:hidden">
         <Menutab />
       </div>
     </div>
