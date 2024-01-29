@@ -4,8 +4,6 @@ import React from "react";
 const Navlinks = () => {
   const navlinks = (
     <>
-      {/* className={({ isActive }) => isActive ? "font-semibold text-secondary" : "font-light text-primary"} */}
-
       <Link
         href="/"
         className="pb-1 px-3 hover:border-b-2 hover:border-gray-400"
@@ -37,10 +35,10 @@ const Navlinks = () => {
         <li>Contact</li>
       </Link>
       <Link
-        href="/"
+        href="/category"
         className="pb-1 px-3 hover:border-b-2 hover:border-gray-400"
       >
-        <li>Login</li>
+        <li>Category</li>
       </Link>
       <Link
         href="/"

@@ -1,19 +1,17 @@
-import { Lora } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const lora = Lora({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Home | Book River",
+  title: "Book Flow",
   description: "",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={lora.className}>
-        <div className="bg-gray-100 min-h-screen">{children}</div>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

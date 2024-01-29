@@ -4,15 +4,9 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // colors: {
-    //   backgroundColor: "#F8F3ED",
-    //   secondoryColor: "#282627",
-    // },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -21,6 +15,5 @@ module.exports = {
       },
     },
   },
-
   plugins: [],
 };
