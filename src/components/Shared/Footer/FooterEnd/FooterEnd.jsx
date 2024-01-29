@@ -6,7 +6,7 @@ const FooterEnd = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div>
-      <div className="flex justify-between items-center border-b border-gray-200">
+      <div className="max-w-6xl mx-auto flex justify-between items-center border-b border-gray-200">
         <div className="text-2xl">
           <Logo />
         </div>

@@ -6,7 +6,7 @@ import Menutab from "./MenuTab/MenuTab";
 
 const Navbar = () => {
   return (
-    <div className="bg-black text-white">
+    <nav className="bg-black text-white">
       {/* nav for md and lg sereen */}
       <div className="max-w-7xl mx-auto py-3 h-28 hidden md:block">
         {/* upper side nav */}
@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="md:hidden">
         <Menutab />
       </div>
-    </div>
+    </nav>
   );
 };
 
